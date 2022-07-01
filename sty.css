@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefine sans' sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0,0.4), rgb(0,0,0,0.2)),url(image/aayush.jpg);
+    background-size: 100% 100%;
+}
+main{
+    width:100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+section{
+    padding-top: 35px;
+}
+
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 2px 2px black;
+}
+
+
+.change_conten::after{
+    content:'';
+    animation: changetext 10s infinite linear;
+    color: cadetblue;
+    text-transform: uppercase;
+}
+
+@keyframes changetext{
+    0%{content: 'welcome to shree janta school ' ;}
+    40%{content:"location= itahari, sunsari,Nepal ";}
+    60%{content:"phone number 025-580371";}
+    80%{content:"email address shreejanatsecondary@gmail.com" ;}
+    100%{content: "this is the place where future ";}
+}

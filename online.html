@@ -1,0 +1,143 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title>Regsistation Form</title>
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: #fff;  
+}  
+.container {  
+    padding: 40px;  
+   background-color: rgb(29, 255, 255);
+}  
+
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1> Shree janta secondary schoool <br> Student Registeration Form</h1> </center>  
+  <hr>  
+  <label> Firstname </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+<label> Middlename: </label>   
+<input type="text" name="middlename" placeholder="Middlename" size="15" required />   
+<label> Lastname: </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+      <td>Upload your privious school passout photo</td>
+      <td><input type="file" name="filefield"/></td>
+<div>  
+<label>   
+Class :  
+</label>   
+  
+<select>  
+<option value="four">four</option>  
+<option value="five">five</option>  
+<option value="six">six</option>  
+<option value="seven">seven</option>  
+<option value="eight">eight</option>  
+<option value="nine">nine</option>
+<option value="eleven">eleven</option>
+<option value="tweleven">tweleven</option>
+</select>  
+</div>  
+<tr>
+    <td>father name</td>
+    <td><input type="Father name" name="3name" id="3name"/></td>
+</tr>
+<tr>
+    <td>Mother name</td>
+    <td><input type="Mother name" name="2name" id="2name"/></td>
+</tr>
+
+<tr>
+    <td>date of birth</td>
+   <td><input type="date"/></td> 
+</tr>
+<br>
+<br>
+<tr>
+    <td>Previous School</td>
+    <td><input type="text" name="previous" id="previous"/></td>
+</tr>
+
+<tr>
+    <td>Upload your photo</td>
+    <td><input type="file" name="filefield"/></td>
+</tr>
+
+<tr>
+  <td>Upload your birth certificate</td>
+  <td><input type="file" name="filefield"></td>
+</tr>
+
+<div>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+</div>  
+<div>
+  <label><br>
+    caste:
+  <input type="radio" value="bramin" name="caste" checked>bramin
+  <input type="radio" value="xettry" name="caste" checked>xettry
+  <input type="radio" value="janajati" name="caste" checked>janajati
+  </div>
+  </label>
+<label>   
+Phone :  
+</label>  
+<input type="text" name="phone" name="country code" placeholder="Country Code"  value="+977-" size="2"/>   
+
+<tr>
+  <td>address</td>
+    <td><select name="select" id="select">
+        <option value="perment Address">perment Address</option>
+        <option value="temperaly Address"> temperaly address</option>
+    </select></td>
+  </tr>   
+   <textarea cols="10" rows="2" placeholder="Address" value="Address" required>  
+  </textarea>  
+
+    <button type="submit" class="registerbtn">Register</button>    
+</form>  
+</body>  
+</html>  
